@@ -1,0 +1,163 @@
+
+
+.Titulo-header{
+    color: blue;
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.img-do-header{
+    height: 65px;
+    width: 65px;
+    border-radius: 10px;
+}
+
+.space{
+    width: 100%;
+    height: 0px;
+    background-color: #D1CFCF;
+}
+
+.seção-1{
+    height: 450px;
+    width: 100%;
+    background-color: #D1CFCF;
+    display: flex;
+}
+
+.classe{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.grupo{
+    height: 150px;
+    width: 350px;
+    background-color: aliceblue;
+}
+
+.modelos{
+    height: 150px;
+    width: 350px;
+    background-color: aliceblue;
+    align-items: flex-start;
+}
+
+.video{
+    width: 100%;
+    height: 100%;
+}
+
+.institucional{
+    height: 150px;
+    width: 350px;
+    background-color: aliceblue;
+}
+
+.seção-modelos{
+    height: 600px;
+    width: 100%;
+    background-image: url(./Imagens/fundo-modelos.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.seção-modelos:hover{
+    background-image: url(./Imagens/fubndo-modelos2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: ease 2s;
+}
+
+.modelo-seção2{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.imagem-modelo:hover{
+    width: 600px;
+    height: 400px;
+    border-radius: 5cm;
+    border-color: white;
+    transition: ease 2s;
+}
+
+.space-2{
+    height: 50px;
+    width: 100%;
+    background-color: #D1CFCF;
+}
+
+.seção-3{
+    height: 710px;
+    width: 100%;
+    background-image: url(./Imagens/fundo-carrossel.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.seção-3:hover{
+    background-image: url(./Imagens/fundo-carrossel-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: ease 3s;
+}
+
+.carrossel-bloco{
+    height: 350px;
+    width: 100%;
+}
+
+.carrossel-conteudo{
+    height: 200px;
+    width: 90%;
+    margin-left: 90px;
+    
+}
+
+.contato{
+    background-image: url(./Imagens/fundo-contato.jpg);
+    background-size: cover;
+}
+
+
+@media only screen and (max-width: 600px)  {
+    .nav-item {
+      display: none;
+    }
+
+    .seção-1 {
+      height: 600px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    
+    .seção-modelos {
+      height: 700px;
+      justify-content: space-evenly;
+      align-items: flex-start;
+    }
+
+    .ecossistemas {
+      height: 500px;
+    }
+
+    .projetos {
+      height: 2700px;
+    }
+
+    .iframe-top {
+      width: 340px;
+    }
+
+    .texto-projetos {
+      display: none;
+    }
+
+  }
